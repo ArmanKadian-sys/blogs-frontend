@@ -79,13 +79,13 @@ const Register = () => {
           </p>
 
           {errors.length > 0 && (
-            <div className="bg-yellow-400 text-black p-4 rounded-2xl mb-5">
+            <ul className="bg-yellow-400 text-black p-4 rounded-2xl mb-5">
               {errors.map((error, i) => (
-                <p key={i} className="font-medium">
+                <li className="font-medium">
                   {error}
-                </p>
+                </li>
               ))}
-            </div>
+            </ul>
           )}
 
           <div className="flex flex-col gap-5">
