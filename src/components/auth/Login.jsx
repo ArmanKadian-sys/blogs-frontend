@@ -54,7 +54,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex bg-black text-white">
 
-      {/* Left Side */}
+
       <div className="hidden md:flex w-[65%] items-center justify-center bg-yellow-400">
         <div className="text-center px-10">
           <h1 className="text-6xl font-black text-black mb-6">
@@ -62,13 +62,12 @@ const Login = () => {
           </h1>
 
           <p className="text-black text-lg font-medium max-w-lg">
-            Login to continue exploring your dashboard and manage your content
-            easily.
+            Login to create blogs, like blogs or comment on blogs
           </p>
         </div>
       </div>
 
-      {/* Right Side */}
+
       <div className="w-full md:w-[35%] flex items-center justify-center px-6">
         <div className="w-full max-w-md bg-black border border-yellow-400 rounded-3xl p-8 shadow-2xl">
 
@@ -77,11 +76,11 @@ const Login = () => {
           </h1>
 
           <p className="text-white/60 mb-8">
-            Enter your account details
+            Enter your details here
           </p>
 
           {errors && (
-            <div className="bg-yellow-400 text-black p-3 rounded-xl mb-5 font-medium">
+            <div className="bg-black text-yellow p-3 rounded-xl mb-5 font-medium">
               {errors}
             </div>
           )}
@@ -113,7 +112,7 @@ const Login = () => {
               onClick={() => navigate("/auth/register")}
               className="border border-yellow-400 text-yellow-400 py-4 rounded-full font-semibold hover:bg-yellow-400 hover:text-black transition-all duration-300"
             >
-              Create Account
+              Register
             </button>
 
           </div>
