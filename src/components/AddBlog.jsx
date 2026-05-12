@@ -25,7 +25,7 @@ const AddBlog = () => {
       return;
     }
 
-    if (contentRef.current.value = '' || titleRef.current.value == '') {
+    if (contentRef.current.value == '' || titleRef.current.value == '') {
       notify("You left a field empty");
       changeIsLoading(false);
       return;
