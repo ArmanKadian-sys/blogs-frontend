@@ -79,7 +79,7 @@ const Register = () => {
           </p>
 
           {errors.length > 0 && (
-            <ul className="bg-black text-yellow p-4 rounded-2xl mb-5">
+            <ul className="bg-black text-yellow p-4 rounded-2xl mb-5  flex flex-col">
               {errors.map((error, i) => (
                 <li className="font-medium">
                   {error}
