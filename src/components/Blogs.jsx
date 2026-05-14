@@ -269,7 +269,7 @@ const Blogs = () => {
             </div>
 
 
-            <p className="text-gray-800 line-clamp-4">{blog.content}</p>
+            <p className="text-gray-800 ">{blog.content}</p>
 
 
 
